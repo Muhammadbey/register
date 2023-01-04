@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="card" id="card_wrapper">
+      <h1>Register</h1>
+      <form action="">
+        <div class="input-wrapper">
+          <label for="username_label">Username</label>
+          <input
+            type="username"
+            id="username"
+            placeholder="Enter Your Username"
+            class="name"
+          />
+        </div>
+        <div class="input-wrapper">
+          <label for="password_label">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Your Password"
+            class="password"
+          />
+        </div>
+        <div class="input-wrapper">
+          <label for="number_label">Tel-number</label>
+          <input
+            type="tel"
+            id="phone_number"
+            placeholder="Enter Your Phone-number"
+            class="tel_phone"
+          />
+        </div>
+        <div class="input-wrapper">
+          <input type="text" placeholder="Select Region" id="region" /><label
+            for=""
+            ><select name="region" id="region">
+              <option value="Samarqand">Samarqand</option>
+              <option value="Tashkent">Tashkent</option>
+              <option value="Buxoro">Buxoro</option>
+              <option value="Jizza">Jizza</option>
+              <option value="Khiva">Khiva</option>
+              <option value="Andijon">Andijon</option>
+              <option value="Navoiy">Navoiy</option>
+              <option value="Namangan">Namangan</option>
+              <option value="Qashqadaryo">Qashqadaryo</option>
+              <option value="Surxondaryo">Surxondaryo</option>
+              <option value="Nukus">Nukus</option>
+              <option value="Qozog'izstan ">Qozog'izstan</option>
+            </select>
+          </label>
+        </div>
+        <div class="button-wrapper" id="button_wrapper">
+          <button>submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background: url(/noch-otel-kurort-basseyn.jpg)no-repeat; 
+    background-size: cover;
+}
+.card{ 
+    width: 70%;
+    min-width: 620px;
+    max-width: 1500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(143, 169, 161);
+    border-radius: 10px;
+    background: url(/1-and-1-lounge.jpg);
+    background-size: cover;
+    box-shadow:  #fff 0px 54px 55px, #fff 0px -12px 30px, #fff 0px 4px 6px, #fff 0px 12px 13px, #fff 0px -3px 5px;;
+}
+.card h1{
+color: rgb(184, 195, 195);
+display: flex;
+justify-content: center;
+text-align: center;
+text-transform: uppercase;
+margin: 40px, 0;
+font-size: 40px;
+font-weight: 700;
+cursor:context-menu;
+}
+.input-wrapper{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+}
+
+.input-wrapper label{ padding: 20px;
+font-size: 20px;
+font-weight: 1000;
+font-style: normal;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(227, 228, 232);
+}
+.input-wrapper input{
+    border-radius: 8px;
+    background-color: black;
+    color: rgb(255, 255, 255)
+}
+ .name{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.password{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+} 
+.tel_phone{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#region{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: black;
+    color: #fff;
+}
+button{
+    width: 50%;
+    height: 65px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+font-size: 30px;
+font-weight:800;
+text-transform: capitalize;
+}
+#button_wrapper{
+display: flex;
+justify-content: center;
+
+}
